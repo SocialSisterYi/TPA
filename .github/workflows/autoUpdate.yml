@@ -20,7 +20,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        check-type: ['standard','dev']
+        #check-type: ['standard','dev']
+        check-type: ['standard']
         
     steps:
       - name: Check out repository code
