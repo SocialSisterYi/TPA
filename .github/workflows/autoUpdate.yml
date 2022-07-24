@@ -10,8 +10,8 @@ on:
         description: "1 for update config"
         required: true
         default: "0"
-  schedule:
-  - cron: '0 0 */3 * *'
+  #schedule:
+  #- cron: '0 0 */3 * *'
 jobs:
   check-update:
     name: check update
