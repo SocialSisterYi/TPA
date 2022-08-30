@@ -78,9 +78,9 @@ module.exports = async ({ github, context, crypto, PRIVATE_KEY }) => {
 \`+${key}\`
 
 ---
-请先在[release](https://github.com/taozhiyu/TyProAction/releases)中下载并覆盖替换补丁文件
+请先在[release](https://github.com/SocialSisterYi/TPA/releases)中下载并覆盖替换补丁文件
 
-Please download and overwrite the patch in [**release**](https://github.com/taozhiyu/TyProAction/releases) first
+Please download and overwrite the patch in [**release**](https://github.com/SocialSisterYi/TPA/releases) first
 
 我们从代码中移除了相关的检测，无需再修改 Host
 
